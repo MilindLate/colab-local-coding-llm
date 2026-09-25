@@ -4,6 +4,16 @@ Run a local, open-weight coding LLM (**Qwen2.5-Coder**, via Ollama) entirely ins
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MilindLate/colab-local-coding-llm/blob/main/local_coding_model_colab.ipynb)
 
+##  How it works
+
+```mermaid
+flowchart LR
+    A[You] -->|type in terminal| B(colab-xterm)
+    B --> C[Ollama server<br/>localhost:11434]
+    C --> D[Qwen2.5-Coder<br/>auto-sized to GPU]
+    D --> C --> B --> A
+```
+
 ## What this does
 
 - Installs **Ollama** and runs it as a local model server inside the Colab VM (`localhost:11434`)
