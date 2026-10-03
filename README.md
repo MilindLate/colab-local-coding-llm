@@ -1,5 +1,7 @@
 # colab-local-coding-llm
 
+
+
 Run a local, open-weight coding LLM (**Qwen2.5-Coder**, via Ollama) entirely inside a free Google Colab GPU runtime — chat with it from a real terminal, no local setup or PC required.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MilindLate/colab-local-coding-llm/blob/main/local_coding_model_colab.ipynb)
